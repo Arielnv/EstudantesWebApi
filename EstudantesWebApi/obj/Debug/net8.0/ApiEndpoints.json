@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "EstudantesWebApi.Controllers.EstudantesController",
+    "Method": "GetEstudantes",
+    "RelativePath": "api/Estudantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EstudantesWebApi.Models.Estudante, EstudantesWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EstudantesWebApi.Controllers.EstudantesController",
+    "Method": "PostEstudante",
+    "RelativePath": "api/Estudantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novoEstudante",
+        "Type": "EstudantesWebApi.Models.Estudante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EstudantesWebApi.Models.Estudante",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
